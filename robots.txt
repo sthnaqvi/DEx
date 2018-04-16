@@ -3,4 +3,4 @@ Disallow: /js/
 Disallow: /css/
 Disallow: /templates/
 Disallow: /help/
-Sitemap: http://localhost:3000/sitemap.xml
+Sitemap: https://dex.karachainfoundation.org/sitemap.xml
