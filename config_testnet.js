@@ -1,7 +1,7 @@
 /* eslint-env browser */
 
 module.exports = {
-  homeURL: 'http://localhost:3000',
+  homeURL: 'https://dex.karachainfoundation.org',
   contractDEx: 'smart_contract/dEx.sol',
   contractToken: 'smart_contract/token.sol',
   contractReserveToken: 'smart_contract/reservetoken.sol',
