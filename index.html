@@ -10,7 +10,7 @@
     <meta property="og:url" content="https://dex.karachainfoundation.org"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link href="/images/favicon.ico" rel="icon"/>
+    <link href="/images/favicon.png" rel="icon"/>
     <link href="/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="/css/font-awesome.min.css" rel="stylesheet"/>
     <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
@@ -18,7 +18,7 @@
     <link href="/css/alertify-bootstrap.min.css" rel="stylesheet"/>
     <link href="/css/main.css" rel="stylesheet"/>
     <link href="/css/small.css" rel="stylesheet" media="only screen and (max-device-width: 480px)"/>
-    <title>DEx - decentralized cryptocurrency exchange for Ethereum and tokens.</title>
+    <title>DEx - Decentralized Cryptocurrency exchange for Ethereum and tokens.</title>
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -33,7 +33,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">
-                <i class="fa fa-database" aria-hidden="true"></i> DEx
+                <i class="fa fa-exchange" aria-hidden="true"></i> DEx
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,12 +56,13 @@
 </nav>
 <div class="container-fluid">
     <div class="row">
-        <h1>WELCOME TO DEx</h1>
-        <center><strong>Start 670+ Ethereum tokens trading <img src="/images/metamask.png" alt="Metamask" width="24"> <a
-                href="https://metamask.io/" target="_blank">MetaMask</a> compatible</strong></center>
-        <center><strong>Ethereum network and services may experience <a href="https://ropsten.etherscan.io/txsPending"
+        <div class="main">
+        <h1>Welcome To DEx</h1><br>
+            <center><strong>Start 670+ Ethereum tokens trading <img src="/images/metamask.png" alt="Metamask" width="24"> <a
+                href="https://metamask.io/" target="_blank">MetaMask</a> compatible</strong></center><br>
+            <center><strong>Ethereum network and services may experience <a href="https://ropsten.etherscan.io/txsPending"
                                                                         target="_blank">high txsPending</a>
-            nowadays</strong></center>
+             nowadays</strong></center><br>
         <section class="features-list">
             <div class="row">
                 <div class="col-md-4 col-sm-6">
@@ -93,6 +94,7 @@
                 </div>
             </div>
         </section>
+        </div>
         <div class="col-md-7">
             <div class="row-container">
                 <div class="row-header trn">price_chart</div>
@@ -108,8 +110,8 @@
                 <div class="row-box height2">
                     <div class="tab-content" style="height: 100%;">
                         <div role="tabpanel" class="tab-pane active chart-price" id="chartPrice"></div>
-                        <div role="tabpanel" class="tab-pane" id="chartDepth"
-                             style="height: 100%; width: 100%; background: #00796b;"></div>
+                        <div role="tabpanel" class="tab-pane chart-depth" id="chartDepth"
+                             ></div>
                     </div>
                 </div>
                 <div class="row-header trn">new_order</div>
@@ -205,6 +207,7 @@
                     <!--style="border:0; width:100%; height:400px;"></iframe>-->
         </div>
     </div>
+
     <!-- Address -->
     <div class="modal fade" id="accountModal" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-sm" role="document">
@@ -420,8 +423,8 @@
             <div class="col-sm-4">
                 <h4 class="title">
                     <i class="fa fa-file-text-o" aria-hidden="true">
-                    </i> DISCLAIMER. NO WARRANTY. HIGH RISKS. </h4>
-                <p>
+                    </i> Disclaimer. No Warranty. High Risks. </h4>
+                <p align="justify">
                     Please note that Ethereum and smart contracts is still experimental and DEx comes with NO WARRANTY.
                     Please make sure you have backups of your private keys and do not use this for more than you are
                     willing to lose. You are responsible for your own account, funds, and private keys. You are
@@ -460,7 +463,7 @@
                   </span>
             </div>
             <div class="col-sm-3">
-                <h4 class="title">Exchange announcements
+                <h4 class="title" style="margin-left: 8%;">Exchange announcements
                 </h4>
                 <div class="category">
                     <ul>
