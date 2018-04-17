@@ -9,7 +9,7 @@ module.exports = {
       { addr: '0x0000000000000000000000000000000000000000', info: 'Zero contract' },
   ],
   ethTestnet: false,
-  ethProvider: 'http://localhost:8545',
+  ethProvider: '',
   ethGasPrice: 20000000000,
   ethAddr: '0x0000000000000000000000000000000000000000',
   ethAddrPrivateKey: '',
@@ -24,7 +24,7 @@ module.exports = {
   eventsCacheCookie: 'DEx_eventsCache',
   deadOrdersCacheCookie: 'DEx_deadOrdersCache',
   ordersCacheCookie: 'DEx_ordersCache',
-  etherscanAPIKey: 'KF9ADFTHP4WJF1GV3WHJZCTFZIN5XZUXG1',
+  etherscanAPIKey: '',
   tokens: [
 { addr: '0x0000000000000000000000000000000000000000', name: 'ETH', decimals: 18 },
 { addr: '0x8e10f6bb9c973d61321c25a2b8d865825f4aa57b', name: '0ED', decimals: 18 },
