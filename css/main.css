@@ -211,24 +211,24 @@ tr.clickable-row:hover {
     color: #011638;
 }
 .btn{
-    width: 33%;
+    color: #E6FAFC;
     background-color: #2c4970;
-    border-color: #011638;
+    border:none;
 }
 .btn:hover{
     background-color: #E6FAFC;
     color:#2c4970;
-    border: none;
+    border:none;
 }
 .btn-success.active, .btn-success:active, .open>.dropdown-toggle.btn-success{
     background-color: #E6FAFC;
     color:#2c4970;
-    border: none;
+    border:none;
 }
 .btn-success.focus, .btn-success:focus{
     background-color: #E6FAFC;
     color:#2c4970;
-    border: none;
+    border:none;
 }
 .input-xs {
     height: 22px;
